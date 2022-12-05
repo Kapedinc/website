@@ -1200,6 +1200,9 @@ h3 {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   color: #525252;
   font-size: 15px;
   line-height: 21px;
@@ -10620,8 +10623,218 @@ h3 {
 }
 
 @media screen and (max-width: 479px) {
+  .text8 {
+    position: relative;
+    top: -53px;
+    width: 200px;
+  }
+
+  .paragraph {
+    width: 290px;
+  }
+
+  .div4 {
+    width: 300px;
+    height: 180px;
+    min-width: 300px;
+  }
+
+  .div98 {
+    position: relative;
+    top: 480px;
+  }
+
+  .paragraph12 {
+    width: 300px;
+  }
+
+  .div95 {
+    width: 300px;
+  }
+
   .container-2 {
     max-width: none;
+  }
+
+  .hero-split {
+    position: relative;
+    bottom: -51px;
+  }
+
+  .div21 {
+    top: 424px;
+  }
+
+  .div20-2 {
+    position: relative;
+    top: 7px;
+    display: none;
+  }
+
+  .div18-2 {
+    position: relative;
+    left: -8px;
+  }
+
+  .div17-2 {
+    position: relative;
+    left: -47px;
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .text1-2 {
+    width: 300px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .div5-2 {
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div4-2 {
+    position: relative;
+  }
+
+  .div14-2 {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .paragraph2-2 {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .div22-2 {
+    display: none;
+  }
+
+  .div-3 {
+    width: 300px;
+    min-width: 150px;
+    padding-right: 41px;
+    padding-left: 39px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .text1-3 {
+    width: 300px;
+  }
+
+  .div14-3 {
+    width: 300px;
+  }
+
+  .paragraph-3 {
+    position: relative;
+    left: 0px;
+    top: 21px;
+    width: 300px;
+    margin-left: 19px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .div13-2 {
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .div4-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .divrootrootroot-4 {
+    width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .div2-4 {
+    position: relative;
+    top: -21px;
+  }
+
+  .section-2 {
+    top: 559px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-4 {
+    left: 39px;
+  }
+
+  .footer-light {
+    top: 481px;
   }
 
   .container-3 {
